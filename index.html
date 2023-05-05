@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kalkulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="left">
+        <div class="calculator-inputs">
+          <input type="number" id="first-input" value="0" />
+          <input type="number" id="second-input" value="0" />
+        </div>
+        <div class="calculator-buttons">
+          <button name="add" class="cal-button">+</button>
+          <button name="subtract" class="cal-button">-</button>
+          <button name="multiply" class="cal-button">*</button>
+          <button name="divide" class="cal-button">/</button>
+        </div>
+        <div class="calculator-reset">
+          <button name="Reset " id="reset-button">Reset</button>
+        </div>
+      </div>
+
+      <div class="right">
+        <div id="result" contenteditable="false">0</div>
+      </div>
+    </main>
+
+    <!-- javaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
