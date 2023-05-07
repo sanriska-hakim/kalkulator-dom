@@ -22,7 +22,7 @@ calButtons.forEach((button) => {
       cetakLayar(result);
     } else if (button.name === "divide") {
       const result = fNum / lNum;
-      cetakLayar(result.toFixed(3));
+      cetakLayar(result.toFixed(2));
     }
   });
 });
